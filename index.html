@@ -308,6 +308,9 @@
           6px 6px rgba(0, 0, 0, 1);
         --wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);
       }
+      .logo-txt {
+        font-size: 37px !important;
+      }
       .mx-35 {
         max-width: 35% !important;
       }
@@ -334,6 +337,11 @@
         }
       }
 
+      @media (max-width: 500px) {
+        .logo-txt {
+          font-size: 24px !important;
+        }
+      }
       :where(.is-layout-flex) {
         gap: 0.5em;
       }
@@ -1107,7 +1115,8 @@
                 data-widget_type="image.default"
               >
                 <div class="elementor-widget-container size">
-                  <h1>USA Gym</h1>
+                                    <h1 class="logo-txt">USA Gym</h1>
+
 <!--                   <img
                     fetchpriority="high"
                     width="800"
@@ -4640,7 +4649,7 @@
                   data-widget_type="image.default"
                 >
                   <div class="elementor-widget-container size-b">
-                     <h1>USA Gym</h1>
+                  <h1 class="logo-txt">USA Gym</h1>
 <!--                     <img
                       width="800"
                       height="400"
